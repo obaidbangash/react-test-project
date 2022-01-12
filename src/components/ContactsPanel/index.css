@@ -1,0 +1,100 @@
+/*__ Contacts Panel CSS Start __*/
+.contactsPanel_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0 20px 0;
+}
+.contactsPanel_head h4 {
+    margin-bottom: 0;
+}
+
+.contacts_search {
+    margin-bottom: 20px;
+}
+.contacts_search .form-control {
+    border-radius: 25px;
+}
+.contacts_search {
+    position: relative;
+}
+.contacts_search svg {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #b8c0d3;
+}
+.contacts_search .form-control {
+    padding-left: 30px;
+}
+
+.select_head {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.new {
+    padding: 50px;
+}
+
+.form_check {
+    display: block;
+}
+
+.form_check input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.form_check label {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.form_check label:before {
+    content:'';
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #b9c4da;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.form_check label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    width: 6px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.form_check input:checked + label:before {
+    background-color: #0aa38e;
+}
+.contacts_list_wrap {
+    height: calc(100vh - 155px);
+    overflow: auto;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+/*__ Contacts Panel CSS End __*/

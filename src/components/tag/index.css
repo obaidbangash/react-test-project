@@ -1,0 +1,48 @@
+/*__ Tag CSS Start __*/
+.tag {
+    padding: 10px 10px;
+    background-color: #f4f5f9;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+.tag.selected {
+    background-color: #fff;
+}
+.tag:hover {
+    background-color: rgba(10, 163, 145, 0.15);
+}
+.tag span {
+    font-size: 14px;
+    font-weight: 500;
+}
+.tag_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trash_btn {
+    background-color: transparent;
+    border: none !important;
+    color: #e3313d;
+    padding: 0;
+    margin-left: auto;
+}
+.trash_btn:focus,
+.trash_btn:hover {
+    background-color: transparent;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: #e3313d;
+}
+.check_icon {
+    font-size: 16px;
+    color: #ccc;
+}
+.checked {
+    color: #0aa38e;
+}
+.tag .checked {
+    margin-left: 12px;
+}
+/*__ Tag CSS End __*/

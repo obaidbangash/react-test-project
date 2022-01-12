@@ -1,0 +1,87 @@
+/*__ Sidebar CSS Start __*/
+.sidebar {
+    -webkit-box-shadow: 2px 1px 10px 0 rgba(0,0,0,0.085);
+    -moz-box-shadow: 2px 1px 10px 0 rgba(0,0,0,0.085);
+    box-shadow: 2px 1px 10px 0 rgba(0,0,0,0.085);
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.sidebar_head {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+.menu_btn {
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.menu_btn span {
+    width: 100%;
+    background-color: #000;
+    height: 2px;
+    display: block;
+    margin: 1px 0 1px auto;
+
+}
+.menu_btn span:nth-child(1) {
+    width: 10px;
+}
+.menu_btn span:nth-child(2) {
+    width: 17px;
+}
+.menu_btn span:nth-child(3) {
+    width: 15px;
+}
+.logo a {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.sidebar .contacts_count {
+    margin-left: auto;
+    font-size: 14px;
+    color: #ccc;
+    font-weight: 500;
+}
+
+
+
+.sidebar_body {
+    padding: 20px 15px;
+}
+.sidebar_body h6 {
+    font-weight: 600;
+    margin: 0 0 12px 0;
+}
+.body_cols + .body_cols {
+    margin-top: 30px;
+}
+
+.sidebar_body .tag:first-child {
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+.sidebar_body .tag:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sidebar_footer {
+    margin-top: auto;
+    padding: 10px 15px;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+}
+.sidebar_footer .btn {
+    width: 100%;
+}
+
+/*__ Sidebar CSS End __*/
